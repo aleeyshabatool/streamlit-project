@@ -7,10 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1C2iIZVIgLABhP634Q_RpCfN_19MPwGmu
 """
 
-!echo "streamlit" > requirements.txt
-!git add requirements.txt
-!git commit -m "Added requirements.txt"
-!git push origin main
+pip install streamlit
+%%writefile app.py
 
 
 #Imports
